@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+  color: blue;
+  font-family: sans-serif;
+}
+
+@media print{
+  body {
+  color: black;
+  font-family: serif;
+  }
+
+  a::after {
+    content: "(" attr(href) ") - (" attr(title) ")" ;
+    display: inline-block;
+    margin-left: .5em;
+  }
+}
+
