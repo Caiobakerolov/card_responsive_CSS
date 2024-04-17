@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: dimgray;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  margin: 20px;
+}
+
+.cards_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 20px;
+}
+
+.card {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
